@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/car"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Location (City, State/Country)" />
+
+    <EditText
+        android:id="@+id/editDropoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Drop-off Location (Optional)" />
+
+    <EditText
+        android:id="@+id/editPickupDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Date (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/editDropoffDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Drop-off Date (YYYY-MM-DD)" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search on Kayak" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

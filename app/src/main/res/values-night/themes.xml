@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.CarRentalApp" parent="Theme.MaterialComponents.NoActionBar">
+
+    </style>
+</resources>
